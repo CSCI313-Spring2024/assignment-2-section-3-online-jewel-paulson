@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ff66b2 !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #ffccdf !important;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 400;
+    color: #ffccdf !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f9a1c1 !important;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #cc0077;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.card {
+    background-color: #ffe6f2;
+    border: 1px solid #ff99cc;
+}
+
+.card-body {
+    color: #333;
+}
+
+input, textarea {
+    border-radius: 5px;
+    border: 2px solid #ff99cc;
+}
+
+input:focus, textarea:focus {
+    border-color: #cc0077;
+}
+
+button[type="submit"] {
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc0077;
+}
+
+footer {
+    color: #cc0077;
+    background-color: #ffe6f2;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #cc0077;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
